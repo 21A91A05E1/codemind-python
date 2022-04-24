@@ -1,0 +1,10 @@
+n=int(input())
+sum=0
+product=1
+while(n):
+    d=n%10
+    sum=sum+d
+    product=product*d
+    n=n//10
+diff=abs(product-sum)
+print(diff)
