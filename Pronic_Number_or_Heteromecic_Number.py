@@ -5,7 +5,6 @@ for i in range(1,n+1):
         flag=1
         break
 if(flag==1):
-    print('YES')
+    print("YES")
 else:
-    print('NO')
-        
+    print("NO")
