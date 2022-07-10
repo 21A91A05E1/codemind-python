@@ -1,4 +1,4 @@
-def isprime(n):
+def isprimes(n):
     if n<2:
         return False
     for i in range(2,int(n**0.5)+1):
@@ -8,8 +8,7 @@ def isprime(n):
 n=int(input())
 m=int(input())
 c=0
-for a in range(n,m+1):
-    if isprime(a):
+for j in range(n,m+1):
+    if isprimes(j):
         c+=1
 print(c)
-        
