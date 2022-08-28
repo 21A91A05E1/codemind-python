@@ -1,12 +1,14 @@
 n=int(input())
 l=list(map(int,input().split()))
 a=[]
+b=[]
 for i in l:
     if(l.count(i)==i):
-        if i not in a:
-            a.append(i)
-if(a==[]):
+        a.append(i)
+    if(a.count(i)==1):
+        b.append(i)
+if(b==[]):
     print("-1")
 else:
-    avg=sum(a)/len(a)
+    avg=sum(b)/len(b)
     print("%.2f"%avg)
