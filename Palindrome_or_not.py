@@ -1,7 +1,7 @@
 str=input()
-r1=str.upper()
-res=r1[::-1]
-if(res==r1):
-    print('True')
+c=str.lower()
+b=c[::-1]
+if(c==b):
+    print("True")
 else:
-    print('False')
+    print("False")
