@@ -6,10 +6,9 @@ def prime(n):
         return True
 a=int(input())
 b=int(input())
-res=a+b
+k=a+b
 for j in range(1,10):
-    res1=res+j
-    if(prime(res1)):
+    k1=k+j
+    if(prime(k1)):
         print(j)
         break
-        
