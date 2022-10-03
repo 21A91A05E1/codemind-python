@@ -6,4 +6,3 @@ for i in range(len(str)):
     else:
         a.append(str[i])
 print(*a)
-         
