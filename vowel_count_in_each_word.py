@@ -6,5 +6,4 @@ for i in s:
     for j in i:
         if j in b:
             c+=1
-    e.append(c)
-print(*e)
+    print(c,end=' ')
