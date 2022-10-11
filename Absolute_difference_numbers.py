@@ -1,0 +1,29 @@
+n,c=map(int,input().split())
+f=0
+l=0
+j=0
+k=0
+a=0
+r=0
+while n!=0:
+    d=n%10
+    j+=1
+    if j<=c:
+        a=a*10+d
+    r=r*10+d
+    n=n//10
+while(k<c):
+        d=r%10
+        k+=1
+        l=l*10+d
+        r=r//10
+while(a!=0):
+        d=a%10
+        f=f*10+d
+        a=a//10
+if(f>l):
+    m=f-l
+    print(m)
+else:
+    m=l-f
+    print(m)
