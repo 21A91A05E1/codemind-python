@@ -27,4 +27,3 @@ elif(a<b):
     print(bn)
 else:
     print(an)
-    
